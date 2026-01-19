@@ -9,7 +9,7 @@ class LSR{
     for(int i=0;i<arr.length;i++){
         if(arr[i]==key){
          flag=true;
-         System.out.println("The key is found at index : "+arr[i]);
+         System.out.println("The key is found at index : "+i);
           break;
         }
     }
